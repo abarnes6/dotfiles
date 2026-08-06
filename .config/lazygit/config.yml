@@ -1,0 +1,11 @@
+git:
+  pagers:
+    - colorArg: always
+      pager: delta --dark --paging=never --line-numbers --side-by-side
+      useConfig: false
+os:
+  edit: "nvim {{filename}}"
+  editAtLine: "nvim +{{line}} {{filename}}"
+  editAtLineAndWait: "nvim +{{line}} {{filename}}"
+gui:
+  scrollHeight: 10
