@@ -1,0 +1,21 @@
+# ~/.config/ghostty/themes/vscode-dark
+background = 121314
+foreground = bbbebf
+cursor-color = bbbebf
+
+palette = 0=#000000
+palette = 1=#F44747
+palette = 2=#0dbc79
+palette = 3=#D7BA7D
+palette = 4=#2472c8
+palette = 5=#B267E6
+palette = 6=#6796E6
+palette = 7=#e5e5e5
+palette = 8=#666666
+palette = 9=#f14c4c
+palette = 10=#23d18b
+palette = 11=#f5f543
+palette = 12=#3b8eea
+palette = 13=#d670d6
+palette = 14=#569CD6
+palette = 15=#e5e5e5
