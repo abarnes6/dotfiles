@@ -49,3 +49,13 @@ alias dotfiles='git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 # LLVM
 LDFLGS="-L/opt/homebrew/opt/llvm/lib/c++ -L/opt/homebrew/opt/llvm/lib/unwind -lunwind"
 export PATH="/opt/homebrew/opt/llvm/bin:$PATH"
+
+export GOPATH=$HOME/go
+export PATH="$HOME/.openclaw/bin:$PATH"
+
+# bun completions
+[ -s "/home/abarnes/.bun/_bun" ] && source "/home/abarnes/.bun/_bun"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"

@@ -1,6 +1,6 @@
-[user]
-	email = andrew.barnes@watchfiresigns.com
-	name = Andrew Barnes
+# Identity is not tracked (see .gitconfig.local)
+[include]
+	path = ~/.gitconfig.local
 [advice]
 	forceDeleteBranch = false
 [pull]
