@@ -38,10 +38,14 @@ eval "$(zoxide init zsh)"
 
 # vcpkg
 export VCPKG_ROOT="$HOME/vcpkg"
-export PATH="/Users/andrew/depot_tools:$PATH"
+export PATH="$VCPKG_ROOT:$PATH"
 
 # Helpful aliases
 alias python=python3
 alias j8='export JAVA_HOME=$(/usr/libexec/java_home -v 1.8)'
 alias j25='export JAVA_HOME=$(/usr/libexec/java_home -v 25)'
 alias dotfiles='git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+
+# LLVM
+LDFLGS="-L/opt/homebrew/opt/llvm/lib/c++ -L/opt/homebrew/opt/llvm/lib/unwind -lunwind"
+export PATH="/opt/homebrew/opt/llvm/bin:$PATH"

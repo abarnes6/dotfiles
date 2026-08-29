@@ -1,7 +1,7 @@
 git:
-  pagers:
+  diffRenderers:
     - colorArg: always
-      pager: delta --dark --paging=never --line-numbers --side-by-side
+      command: delta --dark --paging=never --line-numbers --side-by-side
       useConfig: false
 os:
   edit: "nvim {{filename}}"
